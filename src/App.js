@@ -3,7 +3,7 @@ import { ethers } from 'ethers';
 import detectEthereumProvider from '@metamask/detect-provider';
 
 const contractABI = [{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"fee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getUsers","outputs":[{"internalType":"address payable[]","name":"","type":"address[]"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"recipient","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"sendPayment","outputs":[],"stateMutability":"payable","type":"function"}];
-const contractAddress = "0xB5364e95BAC807F262744Dedd87BBF5b70504855"; 
+const contractAddress = "0x625503Af11e32F140DeB3C3048874924C82bC9FC"; 
 
 function App() {
   const [provider, setProvider] = useState(null);
